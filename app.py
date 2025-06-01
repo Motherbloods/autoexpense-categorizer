@@ -47,7 +47,7 @@ def predict():
 
     # Make prediction
     category, confidence = classify_expense(activity, model=model)
-    recogzined = True if confidence > 0.5 else False
+    recogzined = True if confidence > 0.8 else False
     # Return prediction
     return jsonify(
         {
