@@ -75,14 +75,14 @@ python src/train_model.py
    python app.py
    ```
 
-2. API akan berjalan di `http://localhost:5000` (untuk Flask) atau `http://localhost:8000` (untuk FastAPI).
+2. API akan berjalan di `http://localhost:8080` (untuk Flask) atau `http://localhost:8000` (untuk FastAPI).
 
 3. Contoh permintaan API:
    ```
    POST /predict
    {
      "description": "Makan di restoran",
-     "amount": 150000,
+     "amount": 180800,
      "date": "2023-03-15"
    }
    ```

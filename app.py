@@ -111,4 +111,4 @@ def batch_predict():
 if __name__ == "__main__":
     # Start the Flask application
     print("Starting AutoExpense Categorizer API...")
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(debug=True, host="0.0.0.0", port=8080)
